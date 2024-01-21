@@ -1,0 +1,67 @@
+@media screen and (max-width: 768px) {
+  .header-img-container {
+    height: 250px;
+    margin-bottom: 50px;
+  }
+}
+
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+
+}
+
+.landbackground {
+  background-image: url('../assets/wallpaper3.jpg');
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+
+  .landbackground {
+    background-size: contain;
+   
+  }
+}
+
+.logo_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.links {
+  /* margin-top: 40px; */
+}
+
+.link-button {
+  text-align: center;
+  background-color: #2bbcb9;
+  color: #fff;
+  width: 260px;
+  padding: 10px;
+}
+
+
+@media (min-width: 768px) {
+
+  .link-button {
+    width: 350px;
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+
+  .logo_img {
+    width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  }
+
+}

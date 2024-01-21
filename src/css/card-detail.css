@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'mona-sans-black-narrow';
+  src: url('../assets/fonts/MonaSans/OTF/Mona-Sans-BlackNarrow.otf')
+    format('truetype');
+  /* Add more src declarations for different formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mona-sans-bold-narrow';
+  src: url('../assets/fonts/MonaSans/OTF/Mona-Sans-SemiBoldNarrow.otf')
+    format('truetype');
+  /* Add more src declarations for different formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mona-sans-light-narrow';
+  src: url('../assets/fonts//MonaSans/OTF/Mona-Sans-RegularNarrow.otf')
+    format('truetype');
+  /* Add more src declarations for different formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mona-sans-medium';
+  src: url('../assets/fonts//MonaSans/OTF/Mona-Sans-MediumNarrow.otf')
+    format('truetype');
+  /* Add more src declarations for different formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'mona-sans-regular-wide';
+  src: url('../assets/fonts//MonaSans/OTF/Mona-Sans-UltraLight.otf')
+    format('truetype');
+  /* Add more src declarations for different formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.card-detail-container {
+
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 80px;
+  }
+}
+
+.card-detail-content {
+ 
+}
+
+.main-food-detail-img-container {
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
+
+.food-detail-img-container {
+  width: 150px;
+  height: 150px;
+  display: flex;
+
+
+
+  @media (min-width: 768px) {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+.food-detail-img {
+  box-shadow: 15px 5px 15px #d5d5d6;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+   @media (min-width: 768px) {
+   border-radius: 0;
+  }
+}
+
+
+
+
+.heading {
+  font-family: 'mona-sans-black-narrow';
+  font-size: 19px;
+}
+
+.dish-name {
+  /* margin-top: 20px; */
+  font-family: 'mona-sans-medium';
+  text-align: center;
+  font-size: 19px;
+  @media (min-width: 768px) {
+    font-size: 25px;
+  }
+}
+
+/* .page-content-container {
+  padding-top: 15px;
+
+  @media (min-width: 768px) {
+    padding: 15px 60px 0 60px;
+  }
+
+} */
+
+
+.food-category {
+  font-family: 'mona-sans-light-narrow';
+  margin: 20px ;
+  text-align: center;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.ingredients {
+  font-family: 'mona-sans-medium';
+  font-size: 17px;
+  color: #4f4e4e;
+ 
+  @media (min-width: 768px) {
+    font-size: 25px;
+  }
+}
+
+.ingredients ~ p {
+  color: #b2b2b4;
+
+  @media (min-width: 768px) {
+    font-size: 19px;
+  }
+}
+
+.allergens p {
+  color: #b2b2b4;
+  /* font-size: 10px; */
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  @media (min-width: 768px) {
+    font-size: 19px;
+  }
+}
+
+.allergens h4 {
+   font-family: 'mona-sans-medium';
+    color: #4f4e4e;
+  margin-top: 20px;
+  font-size: 17px;
+   @media (min-width: 768px) {
+    font-size: 25px;
+  }
+}
+
+.warning {
+  color: red;
+  padding-right: 10px;
+  font-size: 28px;
+  margin-top: 25px;
+}
+
+.recommended-beverages {
+  font-family: 'mona-sans-bold-narrow';
+  font-size: 20px;
+  margin-top: 50px;
+    @media (min-width: 768px) {
+    font-size: 25px;
+  }
+}

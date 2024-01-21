@@ -1,0 +1,177 @@
+/* form  */
+
+.input_wrap {
+  position: relative;
+}
+
+.modal-title {
+  color: var(--darker-blue-text);
+}
+
+/* .contact-form {
+  @media screen and (min-width: 529px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+} */
+
+@media screen and (max-width: 529px) {
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+}
+
+
+@media screen and (max-width: 529px) {
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 530px) {
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+
+
+
+/* @media screen and (min-width: 768px) {
+  .contact-form {
+    grid-template-columns: auto auto;
+     gap: 20px;
+      display: grid !important;
+  }
+} */
+
+
+.contact_input {
+  width: 100%;
+  background-color: #f2f5fb;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--light-blue);
+  padding: 20px 8px 10px 20px;
+  transition: 0.3s;
+}
+
+.contact_input:hover {
+  background-color: var(--color-body);
+}
+
+.input_wrap label {
+  position: absolute;
+  top: 50%;
+  left: calc(1.35rem);
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: 0.3s;
+  color: #848484;
+}
+
+@media screen and (max-width: 529px) {
+  label {
+    font-size: 1rem;
+  }
+  .outside-label {
+    font-size: 1.1rem;
+  }
+}
+
+textarea.contact_input {
+  resize: none;
+  width: 100%;
+  min-height: 150px;
+}
+
+textarea.contact_input ~ label {
+  top: 1rem;
+  transform: none;
+}
+
+.input_wrap.focus .contact_input {
+  border-color: var(--light-blue);
+}
+
+.input_wrap.focus label {
+  color: var(--light-blue);
+}
+
+.label {
+  /* Your existing label styles here */
+  position: absolute;
+  transition: transform 0.3s ease-out;
+  transform-origin: top left;
+}
+
+.label.focused {
+  transform: translateY(-1.5rem) scale(0.8);
+}
+
+.submit_btn {
+  background-color: var(--light-blue);
+  color: var(--color-body);
+ 
+}
+
+.hello {
+  background-color: blue;
+  color: yellow;
+}
+
+textarea {
+  background-color: #f2f5fb;
+  border-radius: 8px;
+}
+
+.input {
+  padding: 15px;
+}
+
+button[type='submit'] {
+  background-color: #2bbcb9;
+  padding: 5px 15px;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.outside-label {
+  color: #848484;
+}
+
+.image-container {
+  /* width: 350px; */
+}
+
+
+.upload-box {
+    height: 135px;
+    background-color: #f2f5fb;
+} 
+
+
+/* Select drop down */
+
+.custom-dropdown {
+  background-color: #f2f5fb;
+  color: #848484;
+  padding: 15px 10px 15px 10px;
+  border-radius: 8px;
+
+  /* border: 1px solid #your-custom-border-color; */
+  /* Add any other styles you want to customize */
+}
+
+

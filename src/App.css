@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'mona-sans';
+  src: url('../src/assets/fonts/MonaSans/OTF/Mona-Sans-Regular.otf') format('truetype');
+  /* Add more src declarations for different formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+.App {
+    font-family: 'mona-sans';
+}

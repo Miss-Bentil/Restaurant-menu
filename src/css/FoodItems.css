@@ -1,0 +1,38 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  /* padding: 8px; */
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 0 40px;
+
+  @media (max-width: 780px) {
+      padding: 0 10px;
+  }
+}
+
+.table-container::-webkit-scrollbar {
+  display: none;
+}
+
+
+  th {
+    white-space: nowrap;
+    /* width: 240px ; */
+    /* padding: 10px 15px; */
+  }

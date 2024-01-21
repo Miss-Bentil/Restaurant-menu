@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Restaurant-menu/static/css/main.117dc2d6.css",
+    "main.js": "/Restaurant-menu/static/js/main.f16883b1.js",
+    "static/js/787.dcd2ca5c.chunk.js": "/Restaurant-menu/static/js/787.dcd2ca5c.chunk.js",
+    "static/media/food3.jpg": "/Restaurant-menu/static/media/food3.909d082e9e86c54abb3c.jpg",
+    "static/media/food4.jpg": "/Restaurant-menu/static/media/food4.12f8e0e2c8fd17b60211.jpg",
+    "static/media/food1.jpg": "/Restaurant-menu/static/media/food1.7830f39710da9c9ff7b4.jpg",
+    "static/media/wallpaper3.jpg": "/Restaurant-menu/static/media/wallpaper3.aaac91c44d6d9601298a.jpg",
+    "static/media/detail2.jpg": "/Restaurant-menu/static/media/detail2.a2c46ceaff19cea49d61.jpg",
+    "static/media/drink3.jpg": "/Restaurant-menu/static/media/drink3.31736cb6e3e612646bf3.jpg",
+    "static/media/drink1.jpg": "/Restaurant-menu/static/media/drink1.b354fa5ac3f24fb1c3ea.jpg",
+    "static/media/drink2.jpg": "/Restaurant-menu/static/media/drink2.bff9f866ce73f60b9f0f.jpg",
+    "static/media/Mona-Sans-SemiBoldNarrow.otf": "/Restaurant-menu/static/media/Mona-Sans-SemiBoldNarrow.e4eea24b231ae5a7f7eb.otf",
+    "static/media/Mona-Sans-MediumNarrow.otf": "/Restaurant-menu/static/media/Mona-Sans-MediumNarrow.f0fa12b9fd40f3f32f97.otf",
+    "static/media/Mona-Sans-RegularNarrow.otf": "/Restaurant-menu/static/media/Mona-Sans-RegularNarrow.bd28657642075774eb96.otf",
+    "static/media/Mona-Sans-BlackNarrow.otf": "/Restaurant-menu/static/media/Mona-Sans-BlackNarrow.dcb45fe90ca62d8a1e86.otf",
+    "static/media/Mona-Sans-UltraLightItalic.otf": "/Restaurant-menu/static/media/Mona-Sans-UltraLightItalic.31a55459f28d5d62338c.otf",
+    "static/media/Mona-Sans-SemiBold.otf": "/Restaurant-menu/static/media/Mona-Sans-SemiBold.d297c7b4a1ba16cbcdc0.otf",
+    "static/media/Mona-Sans-Regular.otf": "/Restaurant-menu/static/media/Mona-Sans-Regular.f695e59d7c484bd1241d.otf",
+    "static/media/Mona-Sans-UltraLight.otf": "/Restaurant-menu/static/media/Mona-Sans-UltraLight.fd12848dd8668b6c439a.otf",
+    "index.html": "/Restaurant-menu/index.html",
+    "main.117dc2d6.css.map": "/Restaurant-menu/static/css/main.117dc2d6.css.map",
+    "main.f16883b1.js.map": "/Restaurant-menu/static/js/main.f16883b1.js.map",
+    "787.dcd2ca5c.chunk.js.map": "/Restaurant-menu/static/js/787.dcd2ca5c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.117dc2d6.css",
+    "static/js/main.f16883b1.js"
+  ]
+}

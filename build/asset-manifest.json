@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Restaurant-menu/static/css/main.117dc2d6.css",
-    "main.js": "/Restaurant-menu/static/js/main.f16883b1.js",
+    "main.js": "/Restaurant-menu/static/js/main.ee2b6369.js",
     "static/js/787.dcd2ca5c.chunk.js": "/Restaurant-menu/static/js/787.dcd2ca5c.chunk.js",
     "static/media/food3.jpg": "/Restaurant-menu/static/media/food3.909d082e9e86c54abb3c.jpg",
     "static/media/food4.jpg": "/Restaurant-menu/static/media/food4.12f8e0e2c8fd17b60211.jpg",
@@ -21,11 +21,11 @@
     "static/media/Mona-Sans-UltraLight.otf": "/Restaurant-menu/static/media/Mona-Sans-UltraLight.fd12848dd8668b6c439a.otf",
     "index.html": "/Restaurant-menu/index.html",
     "main.117dc2d6.css.map": "/Restaurant-menu/static/css/main.117dc2d6.css.map",
-    "main.f16883b1.js.map": "/Restaurant-menu/static/js/main.f16883b1.js.map",
+    "main.ee2b6369.js.map": "/Restaurant-menu/static/js/main.ee2b6369.js.map",
     "787.dcd2ca5c.chunk.js.map": "/Restaurant-menu/static/js/787.dcd2ca5c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.117dc2d6.css",
-    "static/js/main.f16883b1.js"
+    "static/js/main.ee2b6369.js"
   ]
 }

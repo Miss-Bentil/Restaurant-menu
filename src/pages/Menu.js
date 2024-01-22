@@ -106,7 +106,7 @@ function Menu() {
       </div>
 
       {isLoading ? (
-        <div className="flex items-center justify-center page-content-container">
+        <div className="flex items-center justify-center ">
           <LineWave color="#6c6a6a" height="200" width="200" />
         </div>
       ) : (

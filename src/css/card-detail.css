@@ -45,8 +45,6 @@
 }
 
 .card-detail-container {
-
-
   @media (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -60,8 +58,8 @@
 
 .main-food-detail-img-container {
   @media (max-width: 768px) {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     margin-top: 30px;
   }
 }
